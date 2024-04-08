@@ -52,18 +52,21 @@ def simpsons_rule(f, a, b, n):
 
 
 if __name__ == '__main__':
-    f = lambda x: math.e ** (x ** 2)
-    g = 1/(2+(x**4))
-    n = 4
-    a = 0
-    b = 1
-    print("https://github.com/Merylhassid/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meryl Hassid 324569714\nstudent:Meryl Hassid 324569714")
+    print( "https://github.com/Merylhassid/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meryl Hassid 324569714\nstudent:Meryl Hassid 324569714")
+
+    f = lambda x: math.e * (x * 2)
+    g = (((3*(x**2)) + sin(x**4 +5*x -6)) / (2*(math.e ** (-2*x +5))))
+    n = 4000
+    a = -0.6
+    b = 1.2
+    # c = 1.3
+    # d = 2.9
 
     error = simpson_max_error(g,b,a,b,n)
-    print(error)
-    if(error>0.001):
-        print("max error in Simpson's is: ",error)
+    print("max error in Simpson's is: ",error)
 
     print( f" Division into n={n} sections ")
-    integral = simpsons_rule(g, a, b, n)
-    print(bcolors.OKBLUE, f"Numerical Integration of definite integral in range [{a},{b}] is {integral}", bcolors.ENDC)
+    integral1 = simpsons_rule(g, a, b, n)
+    # integral2 = simpsons_rule(g, c, d, n)
+    # integral = integral1 + integral2
+    print(bcolors.OKBLUE, f"Numerical Integration of definite integral in range [{a},{b}] is {integral1}", bcolors.ENDC)
