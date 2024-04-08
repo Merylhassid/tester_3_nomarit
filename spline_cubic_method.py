@@ -86,6 +86,7 @@ if __name__ == '__main__':
     f = [(0, 0), (pi/6, 0.5), (pi/4, 0.7072), (pi/2, 1)]
     x0 = pi/3
     g = [(0, 1), (pi/2, 0)]
+    print("https://github.com/Merylhassid/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meryl Hassid 324569714\nstudent:Meryl Hassid 324569714")
 
     print("func: " + str(f))
     print("x0 = " + str(x0) + "\n")
