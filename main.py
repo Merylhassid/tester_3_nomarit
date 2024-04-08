@@ -3,6 +3,10 @@ import sympy as sp
 from sympy import *
 from sympy.utilities.lambdify import lambdify
 
+print(
+    "https://github.com/Merylhassid/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meryl Hassid 324569714\nstudent:Meryl Hassid 324569714")
+
+
 def newton_raphson(func, a, b, eps=1e-4):
     h = sp.diff(func)
     func = lambdify(x,func)
