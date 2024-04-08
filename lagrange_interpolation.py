@@ -26,6 +26,7 @@ def lagrange_interpolation(x_data, y_data, x):
     return result
 
 if __name__ == '__main__':
+    print("https://github.com/Merylhassid/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meryl Hassid 324569714\nstudent:Meryl Hassid 324569714")
 
     x_data = [-2, 0, 2, 3]
     y_data = [4, 0, 4, 0]
