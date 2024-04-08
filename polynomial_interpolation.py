@@ -20,9 +20,10 @@ def polynomialInterpolation(table_points, x):
 
 
 if __name__ == '__main__':
+    print("https://github.com/Merylhassid/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meryl Hassid 324569714\nstudent:Meryl Hassid 324569714")
 
-    table_points = [(1, 3), (2, 4), (3, -1)]
-    x = 1.5
+    table_points = [(1, 1), (1.3, 1), (1.4, 1)]
+    x = 1.47
     print(bcolors.OKBLUE, "----------------- Interpolation & Extrapolation Methods -----------------\n", bcolors.ENDC)
     print(bcolors.OKBLUE, "Table Points: ", bcolors.ENDC, table_points)
     print(bcolors.OKBLUE, "Finding an approximation to the point: ", bcolors.ENDC, x,'\n')
