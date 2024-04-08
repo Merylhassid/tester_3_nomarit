@@ -56,16 +56,17 @@ if __name__ == '__main__':
 
     f = lambda x: math.e * (x * 2)
     g = (((3*(x**2)) + sin(x**4 +5*x -6)) / (2*(math.e ** (-2*x +5))))
+    a = 2.1
+    b = 2.6
     n = 4000
-    a = -0.6
-    b = 1.2
+
     # c = 1.3
     # d = 2.9
 
     error = simpson_max_error(g,b,a,b,n)
-    print("max error in Simpson's is: ",error)
+    # print("max error in Simpson's is: ",error)
 
-    print( f" Division into n={n} sections ")
+    # print( f" Division into n={n} sections ")
     integral1 = simpsons_rule(g, a, b, n)
     # integral2 = simpsons_rule(g, c, d, n)
     # integral = integral1 + integral2
