@@ -57,6 +57,7 @@ if __name__ == '__main__':
     n = 4
     a = 0
     b = 1
+    print("https://github.com/Merylhassid/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meryl Hassid 324569714\nstudent:Meryl Hassid 324569714")
 
     error = simpson_max_error(g,b,a,b,n)
     print(error)
