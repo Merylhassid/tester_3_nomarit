@@ -33,6 +33,8 @@ def linearInterpolation(table_points, point):
 
 
 if __name__ == '__main__':
+    print("https://github.com/Merylhassid/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meryl Hassid 324569714\nstudent:Meryl Hassid 324569714")
+
 
     table_points = [(1, 3), (2, 4), (3, -1)]
     x = 1.5
